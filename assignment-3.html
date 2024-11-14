@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15; /* Improve readability */
+}
+
+body {
+    font-family: sans-serif; /* Set a default font family */
+    font-size: 1rem; /* Base font size */
+    background-color: #fff; /* Background color */
+    color: #000; /* Text color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold; /* Set headings to bold */
+}
+
+ul, ol {
+    list-style: none; /* Remove default bullets */
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Use the text color for links */
+}
+
+img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+table {
+    border-collapse: collapse; /* Remove default spacing */
+    width: 100%; /* Make tables responsive */
+}
+
+
+        main{
+    font-family: "poppins";
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a7a8cd;
+   
+}
+.card{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+}
+@media (max-width:340px) {
+    .card{
+        width: 100%;
+        margin: 16px;
+    }
+}
+img{
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: 200px;
+}
+.banner{
+   background-color: #fdf2b4; 
+   position: absolute;
+   padding:0 1rem ;
+   height: 2rem;
+   display: flex;
+   align-items: center;
+   border-radius:4px 1rem 1rem 4px  ;
+   left: -10px;
+   top: 6px;
+}
+span{
+    font-size: 10px;
+    color: #8b8b8b;
+}
+.caption{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem;
+}
+p{
+    font-size: 0.8rem;
+}
+    </style>
+</head>
+<body>
+    <main>
+    <div class="card">
+        <div class="banner">
+            <h5>New and Improved!</h5>
+           
+        </div>
+        <div class="img-container"> <img src="./image/18689-NRRY71.jpg" alt="watch"></div>
+        <div class="caption">
+            <h3>Novus Watch <span>Series IV</span></h3>
+            <p>The pinnacle of fashion and tech. This wearable piece is an homage to guied palaces and minimal regalia, combining nouveau-deco and brutalism influences in a compact, Swiss-made watch.</p>
+        </div>
+    </div>
+    </main>
+</body>
+</html>
