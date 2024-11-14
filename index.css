@@ -126,3 +126,12 @@ table {
         padding:64px 32px ;
     }
 }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
+    flex-direction: column;
+}
